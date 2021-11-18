@@ -7,6 +7,14 @@
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "yarn lint:fix"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,13 +29,5 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-prettier": "^2.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.scss": "yarn lint:fix"
   }
 }
