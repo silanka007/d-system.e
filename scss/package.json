@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix",
-    "prepare": "husky install"
+    "lint:fix": "yarn lint --fix"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +27,7 @@
       "pre-commit": "lint-staged"
     }
   },
-  "lint-stage": {
+  "lint-staged": {
     "*.scss": "yarn lint:fix"
   }
 }
