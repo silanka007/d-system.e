@@ -3,7 +3,6 @@
 =            TABLE OF CONTENT                 =
 =============================================*/
 
-
 /**
  *
  * FOUNDATIONS..................................
@@ -25,9 +24,9 @@
 /*=============================================
 =            Base                             =
 =============================================*/
-// css reset using normalizeSCSS - since we are using scss
-// root definitions
 
+@import "./base/reset";
+@import "./base/root";
 
 /*=====  End of Base  ======*/
 
