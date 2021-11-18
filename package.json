@@ -10,9 +10,7 @@
     "build": "node src/script/build.js"
   },
   "lint-staged": {
-    "*.scss": "yarn lint:fix",
-    "*.css": "stylelint --fix",
-    "*.{js,css,md}": "prettier --write"
+    "*.scss": "yarn lint:fix"
   },
   "keywords": [],
   "author": "",
