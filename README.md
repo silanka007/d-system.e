@@ -1,1 +1,0 @@
-npm install -D stylelint stylelint-config-sass-guidelines stylelint-config-prettier stylelint-prettier prettier

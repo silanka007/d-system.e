@@ -26,18 +26,18 @@
   }
 }
 
-@mixin margin-top ($value) {
+@mixin margin-top($value) {
   margin-top: map-get($spacing, $value);
 }
 
-@mixin margin-down ($value) {
-  margin-down: map-get($spacing, $value)
+@mixin margin-bottom($value) {
+  margin-bottom: map-get($spacing, $value);
 }
 
-@mixin margin-left ($value) {
-  margin-left: map-get($spacing, $value)
+@mixin margin-left($value) {
+  margin-left: map-get($spacing, $value);
 }
 
-@mixin margin-right ($value) {
-  margin-right: map-get($spacing, $value)
+@mixin margin-right($value) {
+  margin-right: map-get($spacing, $value);
 }
