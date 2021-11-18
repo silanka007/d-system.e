@@ -26,18 +26,18 @@
   }
 }
 
-@mixin margin-top {
-  margin-top: map-get($spacing, "lg");
+@mixin margin-top ($value) {
+  margin-top: map-get($spacing, $value);
 }
 
-@mixin margin-down {
-  margin-down: map-get($spacing, "xxl")
+@mixin margin-down ($value) {
+  margin-down: map-get($spacing, $value)
 }
 
-@mixin margin-left {
-  margin-left: map-get($spacing, "xxl")
+@mixin margin-left ($value) {
+  margin-left: map-get($spacing, $value)
 }
 
-@mixin margin-right {
-  margin-right: map-get($spacing, "xxl")
+@mixin margin-right ($value) {
+  margin-right: map-get($spacing, $value)
 }
