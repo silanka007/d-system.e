@@ -89,3 +89,8 @@
  * helpful reusable function-like props that will be used to 
  * implement styles for components
  */
+.dse-button-container {
+  background: var(--dse-btn-primary-bg, #5ece7b);
+  color: var(--dse-btn-primary-color, #fff);
+  padding: 0.25rem;
+}

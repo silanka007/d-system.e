@@ -10,7 +10,7 @@ const getComponents = () => {
       .readdirSync(`src/${source}`)
       .map((file) => ({
         input: `src/${source}/${file}`,
-        output: `src/lib/${file.slice(0, -4)}css`
+        output: `lib/${file.slice(0, -4)}css`
       }));
     
     allComponents = [...allComponents, ...allFiles];
@@ -30,5 +30,5 @@ const compile = (source, destination) => {
 };
 
 
-compile("src/global.scss", "src/lib/global.css")
+compile("src/global.scss", "lib/global.css")
 getComponents().forEach(comp => compile(comp.input, comp.output))
