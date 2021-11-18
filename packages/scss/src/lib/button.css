@@ -1,0 +1,91 @@
+/*=============================================
+=            Variables                        =
+=============================================*/
+/*
+  * TABLE OF CONTENTS
+  *
+
+  * COLORS
+  * Brand colors.............these are the main brand colors. They will be used the most.
+  * Neutral colors...........white and black, gray scale, secondary colors.
+  * Utility colors...........other colors to represent state: info, warning success etc
+  *
+
+  * TYPOGRAPHY
+  * font families............the fonts used in the design system
+  * font weight..............font weight used
+  * sizes....................font sizing for body text, paragraph, inputs etc
+  * heading size.............font sizing for page heading
+  *
+
+  * BREAKPOINTS
+  * Breakpoint...............global responsive breakpoints definitions.
+  *
+  *
+  * SPACING
+  * Spacing..................global fixed set of spacing variables
+  *
+*/
+/*=============================================
+=            Colors                           =
+=============================================*/
+/* Brand colors */
+/* Neutral colors */
+/* Utility colors */
+/*=====  End of Colors  ======*/
+/*=============================================
+=            Typography                       =
+=============================================*/
+/* Font families */
+/* Font weight */
+/* Font sizes */
+/* heading sizes */
+/*=====  End of Typography  ======*/
+/*=============================================
+=            Breakpoints                      =
+=============================================*/
+/*=====  End of Breakpoints  ======*/
+/*=============================================
+=            Spacing                          =
+=============================================*/
+/**
+ *
+ * this file defines the actual colors that will be used for styling.
+ *  Devs can override this with their own variables
+ *  
+ */
+/*=============================================
+ =             Text                            =
+ =============================================*/
+/*=====  End of text colors  ======*/
+/*=============================================
+ =            Buttons                          =
+ =============================================*/
+/*=====  End of Buttons  ======*/
+/*=============================================
+ =            Forms                            =
+ =============================================*/
+/**
+ *
+ * this file defines the default font sizes to be used on heading and text
+ *
+ */
+/*=============================================
+=            body font sizes                  =
+=============================================*/
+/*=====  End of body font sizes  ======*/
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+/*=====  End of heading font sizes  ======*/
+/*=============================================
+=            heading font weight              =
+=============================================*/
+/*=============================================
+=            Mixins                           =
+=============================================*/
+/**
+ *
+ * helpful reusable function-like props that will be used to 
+ * implement styles for components
+ */
