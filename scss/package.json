@@ -24,7 +24,9 @@
     "stylelint-prettier": "^2.0.0"
   },
   "husky": {
-    "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-stage": {
     "*.scss": "yarn lint --fix"
